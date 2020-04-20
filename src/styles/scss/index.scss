@@ -1,0 +1,12 @@
+/*Importing from the variables.scss file*/
+@import 'base/variables';
+/*Importing from the elements.scss file*/
+@import 'base/elements';
+/*Importing from the app.scss file*/
+@import 'components/app';
+/*Importing from the sidebar.scss file*/
+@import 'components/sidebar';
+/*Importing from the nav.scss file*/
+@import 'components/nav';
+/*Importing from the recipe.scss file*/
+@import 'components/recipe';

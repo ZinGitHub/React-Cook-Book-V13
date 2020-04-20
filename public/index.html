@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Zinedin's Cookbook</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- Link to the main.css stylesheet -->
+  <link href="css/homepage.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- The navigation bar -->
+  <div class="navbar">
+    <a href="#about">About</a>
+    <a href="#videoa">Video Player</a>
+    <a href="#soundclouda">Cooking Music</a>
+    <a href="#cookbook">Cookbook</a>
+    <a href="#quiza">Quiz</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!------------------------------------------------------------>
+
+  <!-- THE HEADER SECTION (with fadeInUp and bounceIn animation) -->
+  <div class="header animated fadeInUp bounceIn" id="headerwrap">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <!-- My name in the header section with a border, bouncing, and grow hover  animated effect -->
+          <div class="border bounceIn grow">
+            <!-- Name under h1 header -->
+            <h1>Zinedin Bautista's Cookbook</h1>
+          </div>
+        </div>
+        <!-- End of col-lg-12 bootstrap div class for header section -->
+      </div>
+      <!-- End of row bootstrap div class for header section -->
+    </div>
+    <!-- End of container bootstrap div class for header section -->
+  </div>
+  <!-- End of header wrapper section div class -->
+
+  <!------------------------------------------------------------>
+
+  <!-- THE ABOUT ME SECTION -->
+  <section id="about" name="about"></section>
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1 grow">
+          <!-- Header (h5) for about me section with underline and bold -->
+          <!-- ABOUT header also has grow hover animation-->
+          <h5>ABOUT</h5>
+        </div>
+        <div class="col-lg-6">
+          <!-- Paragraph for about me section -->
+          <p>Hello there! I hope you're having a great day.
+            I'm an online cookbook created by a future computer science graduate.
+            Within this online cookbook, you'll be able to learn to cook 15 food recipes with more coming soon with
+            future updates!
+            Just scroll on downward and click on the button, which will direct you to the online cookbook.
+            If you have any questions, suggestions, and or concerns below, this site will have my contact information.
+            For you to communicate with me, also you can reach out to my Linkedin account and GitHub account.</p>
+            <!-- Popup button module render -->
+            <div id="popupbutton"></div>
+        </div>
+      </div>
+      <!-- End of row bootstrap div class for about section -->
+    </div>
+    <!-- End of container bootstrap div class for about section -->
+  </div>
+  <!-- End of about wrapper section div class -->
+
+  <!------------------------------------------------------------>
+
+  <!------------------------------------------------------------>
+
+  <!-- THE VIDEO PLAYER SECTION -->
+  <section id="videoa" name="videoa"></section>
+  <div class="videodesc">
+    <div class="container">
+      <!-- The statement COOKBOOK VIDEO RECOMMENDATION will have growing animation-->
+      <div class="grow">
+        <h5 style="text-align:center;">COOKBOOK VIDEO RECOMMENDATION</h5>
+      </div>
+      <!-- The statement LEARN FROM GORDON RAMSEY will have rotate animation-->
+      <div class="rotate">
+        <p style="text-align:center;">LEARN FROM GORDON RAMSEY</p>
+      </div>
+      <div class="row">
+        <!-- Video module render -->
+        <div id="video"></div>
+      </div>
+      <!-- End of row bootstrap div class for about section -->
+    </div>
+    <!-- End of container bootstrap div class for about section -->
+  </div>
+  <!-- End of about wrapper section div class -->
+
+  <!------------------------------------------------------------>
+
+  <!------------------------------------------------------------>
+
+  <!-- THE SOUNDCLOUD PLAYER SECTION -->
+  <section id="soundclouda" name="soundclouda"></section>
+  <div class="soundclouddesc">
+    <div class="container">
+      <!-- The statement MUSIC SOUNDTRACK FOR COOKING will have growing animation-->
+      <div class="grow">
+        <h5 style="text-align:center;">MUSIC SOUNDTRACK FOR COOKING</h5>
+      </div>
+      <!-- The statement LISTEN TO THIS WHILE COOKING will have rotate animation-->
+      <div class="rotate">
+        <p style="text-align:center;">LISTEN TO THIS WHILE COOKING</p>
+      </div>
+      <div class="row">
+        <!-- Soundcloud module render -->
+        <div id="soundcloud"></div>
+      </div>
+      <!-- End of row bootstrap div class for about section -->
+    </div>
+    <!-- End of container bootstrap div class for about section -->
+  </div>
+  <!-- End of about wrapper section div class -->
+
+  <!------------------------------------------------------------>
+
+  <!-- THE COOKBOOK BUTTON SECTION -->
+  <section id="cookbook" name="cookbook"></section>
+  <div class="cookbookdesc">
+    <!-- COOKBOOK header has grow hover animation-->
+    <div class="grow">
+      <h5>COOKBOOK</h5>
+    </div>
+    <!-- The sentence 15 COOKING RECIPES WITH MORE COMING! has rotate animation -->
+    <div class="rotate">
+      <p>15 COOKING RECIPES WITH MORE COMING!</p>
+    </div>
+    <div class="container desc">
+      <!-- The React cookbook implemented into the HTML page -->
+      <div id="root"></div>
+    </div>
+    <!-- End of row bootstrap div class for cookbook button section -->
+    <!-- Line break -->
+    <br>
+    <!-- Insert horizontal line break -->
+  </div>
+  <!-- End of container bootstrap div class for cookbook button section -->
+
+  <!------------------------------------------------------------>
+
+  <!-- THE QUIZ SECTION -->
+  <section id="quiza" name="quiza"></section>
+  <div class="quizdesc">
+    <div class="container">
+      <!-- The statement COOKBOOK Quiz will have growing animation-->
+      <div class="grow">
+        <h5 style="text-align:center;">COOKBOOK Quiz</h5>
+      </div>
+      <!-- The statement TEST YOUR COOKING SKILLS WITH THIS QUIZ! will have rotate animation-->
+      <div class="rotate">
+        <p style="text-align:center;">TEST YOUR COOKING SKILLS WITH THIS QUIZ!</p>
+      </div>
+      <div class="row">
+        <!-- Quiz module render -->
+        <div id="quiz"></div>
+      </div>
+      <!-- End of row bootstrap div class for about section -->
+    </div>
+    <!-- End of container bootstrap div class for about section -->
+  </div>
+  <!-- End of about wrapper section div class -->
+
+  <!------------------------------------------------------------>
+
+  <!------------------------------------------------------------>
+
+  <!--FOOTER/CONTACT SECTION -->
+  <section id="contact" name="contact"></section>
+  <div id="footwrap" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1 grow">
+          <!-- Header (h5) for contact section with underline and bold -->
+          <!-- CONTACT header also has grow hover animation-->
+          <h5>CONTACT</h5>
+          <section id="map" name="map"></section>
+        </div>
+        <!-- Email which if clicked will open an email service -->
+        <div class="col-lg-6">
+          <p>
+            <t>Email</t><br />
+            <a href="mailto:zinedinbautista@gmail.com" class="mail">zinedinbautista@gmail.com</a> <br />
+          </p>
+          <!-- Address -->
+          <p>
+            <t>Address</t><br />
+            2625 West Baseline Rd. <br />
+            Tempe, Arizona 85283 <br />
+            United States of America<br />
+          </p>
+          <!-- Phone number -->
+          <p>
+            <t>Phone</t><br />
+            <a href="tel:9704577273" class="tel">(970) 457-7273</a> <br />
+            <!-- The React Google Map implemented into the HTML page -->
+            <div id="maproot"></div>
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <!-- Small label for social links -->
+          <p>
+            <sm>SOCIAL LINKS</sm>
+          </p>
+          <p>
+            <!-- Social Links -->
+            <!-- Social link to my Linkedin, if clicked another page will open -->
+            <a href="https://www.linkedin.com/in/zinedin-bautista-42b423150/" target="_blank"><i
+                class="icon-linkedin"></i></a>
+            <!-- Social link to my Github, if clicked another page will open -->
+            <a href="https://github.com/ZinGitHub?tab=repositories" target="_blank"><i class="icon-github"></i></a>
+          </p>
+        </div>
+      </div>
+      <!-- End of row bootstrap for footer/contact section -->
+    </div>
+    <br>
+    <!-- End of container bootstrap for footer/contact section -->
+  </div>
+  <!-- End of footer/contact wrapper section div class -->
+
+  <!------------------------------------------------------------>
+
+
+
+  <!-- THE COOKBOOK BUTTON SECTION -->
+
+  <!-- End of container bootstrap div class for cookbook button section -->
+
+  <!------------------------------------------------------------>
+
+  <!-- Button that will take user back to the top of the page if clicked -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Return To Top</button>
+
+  <!------------------------------------------------------------>
+
+  <!-- Script for the button that will take users back to the top -->
+  <script>
+
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document then it will show the button
+    window.onscroll = function () { scrollFunction() };
+
+    // The function which will dsiplay the top button if the user has scrolled down for more than 20 px.
+    // The top button will alwayw disappear if the user has not scrolled down 20px.
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+        // ----------------------------------------------------------------------------//
+  </script>
+</body>
+
+</html>

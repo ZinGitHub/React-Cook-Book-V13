@@ -1,0 +1,22 @@
+/*SCSS for sidebar element class*/
+.sidebar {
+  /*Set the height of the content area to 115%*/
+  height: 115%;
+  /*Specify the width of the sidebar element*/
+  width: 350px;
+  /*Setting  width, style, and color of the right border of the box*/
+  border-right: 1px solid $color-shadow;
+  /*Specifying the margin width on all sides of the sidebar element*/
+  margin: 50px 0px;
+  /*Apply padding to the left side of the sidebar element*/
+  padding-left: 30px;
+  /*SCSS for sidebar_title element class*/
+  &__title {
+    /*Change the color of the sidebar_title text*/
+    color: $color-main;
+    /*Change the font size of the sidebar_title text twice as big*/
+    font-size: 2em;
+    /*Specifying the margin width on all sides of the sidebar_title element*/
+    margin: 0;
+  }
+}

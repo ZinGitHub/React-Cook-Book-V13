@@ -1,0 +1,40 @@
+/*SCSS for Navigation element class*/
+.Navigation {
+  &__nav {
+    
+  }
+  /*SCSS for Navigation_list element class*/
+  &__list {
+    /*Specifying how the Navigation_list element will be displayed (flex)*/
+    display: flex;
+    /*The flex direction specifying the direction of flex items (column)*/
+    flex-direction: column;
+    /*Specifying how list item markers should be styled*/
+    list-style-type: none;
+    /*Constrain the height of the Navigation_list element*/
+    min-height: 100px;
+    /*Control the alignment within the content box (space-around)*/
+    justify-content: space-around;
+  }
+  /*SCSS for Navigation_button element class*/
+  &__button {
+    /*Setting the styles on the borders of the Navigation_button element*/
+    border: none;
+    /*Change the font size of the sidebar_title text one times as big*/
+    font-size: 1em;
+    /*Change the appereance of the users' cursor (pointer/default)*/
+    cursor: pointer;
+    /*Transition the change of color in 0.1 seconds*/
+    transition: color .1s linear;
+    /*SCSS for Navigation_button with hover effect*/
+    &:hover {
+      /*Change the color of the food item to #89EDA0 when cursor is over it*/
+      color: $color-main;
+    }
+    /*SCSS Navigation_button--active element class*/
+    &--active {
+      /*The selected food item will be underlined*/
+      text-decoration: underline;
+    }
+  }
+}

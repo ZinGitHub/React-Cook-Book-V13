@@ -1,0 +1,49 @@
+/*SCSS for Recipe element class*/
+.Recipe {
+  /*Specifying the margin width on all sides of the Recipe element*/
+  margin: 60px 50px 0px 100px;
+  /*Specify the width of the Recipe element (70%)*/
+  width: 70%;
+  /*Change the font of the Recipe element text*/
+  font-family: $font-main;
+  /*SCSS for Recipe_title element class*/
+  &__title {
+    /*Specify the width of the Recipe_title element*/
+    margin: 0;
+    /*Change the font size of the sidebar_title text three times as big*/
+    font-size: 3em;
+  }
+  /*SCSS for Recipe_sub-title element class*/
+  &__sub-title {
+    /*Change the font size of the Recipie_sub-title text one times as big*/
+    font-size: 1em;
+    /*Bold the words ingriedients and steps*/
+    font-weight: bold;
+    /*Specifying the thickness of the top-margin*/
+    margin-top: 50px;
+    /*Change all the letters in the words ingredients and steps will be uppercase*/
+    text-transform: uppercase;
+  }
+  /*SCSS for Recipe_ingredients element class*/
+  &__ingredients {
+    /*Apply padding to the left side of the Recipe_ingredients element*/
+    padding-left: 0;
+    /*Specifying how list item markers should be styled*/
+    list-style-type: none;
+    /*SCSS for Recipe_ingredients with list item tag*/
+    > li {
+      /*Specifying the margin width on all sides of the Recipe_ingredients with list items element*/
+      margin: 10px 0px;
+    }
+  }
+  /*SCSS for Recipe_steps*/
+  &__steps {
+    /*Apply padding to the left side of the Recipe_steps element*/
+    padding-left: 20px;
+    /*SCSS for Recipe_steps with list item tag*/
+    > li {
+      /*Specifying the margin width on all sides of the Recipe_steps with list items element*/
+      margin: 10px 0px;
+    }
+  }
+}
